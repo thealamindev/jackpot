@@ -1,0 +1,2187 @@
+/* 
+------------------
+Template Name: Jackpot - Online casino and gambling HTML Template
+Author: themesitem
+Author Email: themepoo.cit@gmail.com
+Version: 1.1
+------------------
+
+1.Table of content index page
+============================
+1.Menu part
+2.Banner part
+3.Game Part
+4.Claim us Part
+5.Membership Part
+6.Tounament Part
+7.Payment part
+8.Footer Part
+
+2. Table of content About page
+============================
+1.Menu part
+2.About banner part
+3.About video part
+4.About Game part
+5.Payment part
+6.Footer Part
+
+3. Table of content Game page
+===================================
+1.Menu part
+2.Game banner part
+3.Game part
+4.Payment part
+5.Footer Part
+
+4.Table of content Membership page
+===================================
+1.Menu part
+2.Membership banner part
+3.Membership part
+4.Payment part
+5.Footer Part
+
+5. Table of content Contact page
+==================================
+1.Menu part
+2.Contact banner part
+3.Contact main part
+4.Payment part
+5.Footer Part
+
+6. Table of content Signup page
+==================================
+1.Menu part
+2.Signup banner part
+3.Signup part
+4.Payment part
+5.Footer Part
+
+7. Table of content Login page
+==================================
+1.Menu part
+2.Login banner part
+3.Login part
+4.Payment part
+5.Footer Part
+
+8. Table of content Error 404 page
+=====================================
+1.Menu part
+2.Error 404 part
+3.Payment part
+4.Footer Part
+
+9. Table of content Promotion page
+=====================================
+1.Menu part
+2.Promotion banner part
+3.Promotion Coins part
+4.Promotion player part
+5.Promotion bonus part
+6.Payment part
+7.Footer Part
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*========================================
+            Common Css End
+========================================*/
+
+
+/*========================================
+            Menu part start 
+========================================*/
+
+.navbar {
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: 98px;
+    z-index: 999;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu_fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    padding-bottom: 18px;
+}
+
+.menu_head a img {
+    height: 98px;
+}
+
+.main_menu ul li a.nav-link {
+    padding: 10px 10px !important;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+}
+
+.main_menu ul li a:hover {
+    color: #ff39dc;
+}
+
+.main_menu ul li a.active {
+    color: #ff39dc;
+}
+
+.main_menu {
+    margin-top: 15px;
+}
+
+.main_menu > a {
+    text-decoration: none;
+    padding: 14px 25px;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+    margin-left: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+}
+
+.main_menu > a:hover {
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 27px 0;
+}
+
+.main_menu > .active {
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+
+
+/*========================================
+            Menu part End 
+========================================*/
+
+
+/*========================================
+            Banner part start 
+========================================*/
+
+#banner_part {
+    background: #150035;
+    padding: 250px 0 285px 0;
+    position: relative;
+}
+
+.banner_img img {
+    position: absolute;
+    top: 50%;
+    left: -90px;
+    transform: translateY(-50%);
+    height: 600px;
+}
+
+.banner_text h4 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    filter: drop-shadow(0 0 25px #4d0148);
+}
+
+.banner_text h1 {
+    font-size: 305px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fcb100;
+    background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 35px #4d0148);
+    margin-top: -35px;
+}
+
+.banner_text p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    margin-top: -30px;
+}
+
+.banner_text a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    margin-top: 22px;
+}
+
+.banner_text a:hover {
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+
+
+/*========================================
+            Banner part End 
+========================================*/
+
+
+/*========================================
+            Game part start 
+========================================*/
+
+#game_part {
+    background: #0b001b;
+    position: relative;
+    padding: 179px 0 100px 0;
+}
+
+.game_flow {
+    -webkit-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 96%);
+    clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 96%);
+    position: absolute;
+    top: -304px;
+    left: 0;
+    width: 100%;
+}
+
+.flow_sha {
+    filter: drop-shadow(0px 6px 0px rgba(58, 0, 144, 1));
+}
+
+.border_shadow {
+    -webkit-box-shadow: inset 10px 0px 50px 0px rgba(31, 7, 67, 0.5);
+    -moz-box-shadow: inset 10px 0px 50px 0px rgba(31, 7, 67, 0.5);
+    box-shadow: inset 10px 0px 50px 0px rgba(31, 7, 67, 0.5);
+    background: #9e4efc;
+    background: -moz-linear-gradient(left, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(left, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to right, #9e4efc 0%, #570dc8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=1);
+    padding: 45px 15px;
+    filter: drop-shadow(30px 10px 4px #4444dd);
+}
+
+.game_text h2 {
+    color: #fcb100;
+    background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 18px;
+}
+
+.game_text h3 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 10px;
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+}
+
+.game_text p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.game_head {
+    margin-top: 27px;
+}
+
+.game_head span {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+    margin: 160px 0 60px 0;
+}
+
+.game_img {
+    position: relative;
+    margin-top: 46px;
+}
+
+.game_overly {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .85);
+    opacity: 0;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.game_img .game_overly h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.game_img .game_overly a {
+    padding: 14px 30px;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.game_img .game_overly a:hover {
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+
+.game_img:hover .game_overly {
+    opacity: 1;
+}
+
+.game_img .game_overly gamea:hover {
+    background: #1e5799;
+    background: -moz-linear-gradient(top, #1e5799 0%, #fb36d7 0%, #aa0288 65%);
+    background: -webkit-linear-gradient(top, #1e5799 0%, #fb36d7 0%, #aa0288 65%);
+    background: linear-gradient(to bottom, #1e5799 0%, #fb36d7 0%, #aa0288 65%);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+}
+
+
+/*========================================
+            Game part End 
+========================================*/
+
+
+/*========================================
+            Claim part Start 
+========================================*/
+
+#claim_part {
+    background: #150035;
+    padding: 100px 0 100px 0;
+}
+
+.claim_text {
+    padding-top: 60px;
+}
+
+.claim_text h2 {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+}
+
+.claim_text p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 50px;
+}
+
+.claim_text p span {
+    display: block;
+    padding-top: 20px;
+}
+
+.claim_text a {
+    text-decoration: none;
+    padding: 14px 30px;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.claim_text a:hover {
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+
+
+/*========================================
+            Claim part End 
+========================================*/
+
+
+/*========================================
+            Membership part Start 
+========================================*/
+
+#pricing_part {
+    background: #0b001b;
+    padding: 95px 0 130px 0;
+}
+
+.pricing_inner {
+    background: -moz-linear-gradient(top, #1e5799 0%, #590fca 0%, #9a4bf9 50%);
+    background: -webkit-linear-gradient(top, #1e5799 0%, #590fca 0%, #9a4bf9 50%);
+    background: linear-gradient(to top, #1e5799 0%, #590fca 0%, #9a4bf9 50%);
+    padding: 0 0 40px 0;
+    border-radius: 5px;
+    position: relative;
+    transition: all .5s linear;
+    /*
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+*/
+}
+
+.pricing_head {
+    margin-bottom: 57px;
+}
+
+.pricing_inner_head {
+    position: relative;
+}
+
+.pricing_head h2 {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+}
+
+.pricing_inner_head h2 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    padding: 20px 0;
+    background: #1e5799;
+    background: -moz-linear-gradient(top, #1e5799 0%, #fb36d7 0%, #aa0288 65%);
+    background: -webkit-linear-gradient(top, #1e5799 0%, #fb36d7 0%, #aa0288 65%);
+    background: linear-gradient(to bottom, #1e5799 0%, #fb36d7 0%, #aa0288 65%);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    opacity: 0;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    border-bottom: 6px solid #661355;
+}
+
+.price_main:hover .pricing_inner_head h2 {
+    opacity: 1;
+}
+
+.pricing_inner h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 12px;
+    padding-top: 60px;
+}
+
+.pricing_inner h4 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+.pricing_inner p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #6428b4;
+}
+
+.pricing_inner ul li {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    padding: 9px;
+}
+
+.pricing_inner ul li:first-child {
+    padding-top: 30px;
+}
+
+.pricing_inner ul li:last-child {
+    padding-bottom: 15px;
+    px;
+}
+
+.pricing_inner a {
+    text-decoration: none;
+    padding: 14px 30px;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: translateX(-50%);
+}
+
+.price_main:hover .pricing_inner a {
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+
+.pricing_inner:hover {
+    transform: translateY(30px);
+}
+
+.pricing_inner:hover .pricing_inner_head {
+    opacity: 1;
+}
+
+
+/*========================================
+            Membership part End 
+========================================*/
+
+
+/*========================================
+            Tounament part Start 
+========================================*/
+
+#tounament_part {
+    background: #150035;
+    padding: 92px 0 100px 0;
+}
+
+.touna_head_left h3 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 40%, #fcb100 45%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+    position: relative;
+}
+
+.touna_head_left h3:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -30px;
+    width: 100%;
+    height: 3px;
+    color: #fcb100;
+    background: #000000;
+    background: -moz-linear-gradient(top, #000000 67%, #290a59 67%);
+    background: -webkit-linear-gradient(top, #000000 67%, #290a59 67%);
+    background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#290a59', GradientType=0);
+}
+
+.touna_head_left h3 .effect2 {
+    position: absolute;
+    left: 0;
+    bottom: -51px;
+    animation: lineshine2 10s infinite;
+    animation-direction: alternate;
+    z-index: 99;
+}
+
+.touna_head_left h3 .effect3 {
+    position: absolute;
+    left: 0;
+    bottom: -51px;
+    animation: lineshine3 10s infinite;
+    animation-direction: alternate;
+    z-index: 99;
+}
+
+.touna_left_inner {
+    margin-top: 65px;
+}
+
+.touna_left_inner .card {
+    background: #150035;
+    border: none;
+    background-clip: inherit;
+}
+
+.touna_left_inner .card.add_border {
+    border: 1px solid #fcb100;
+    border-radius: 0;
+}
+
+.touna_left_inner button {
+    text-decoration: none !important;
+    padding-left: 30px !important;
+    width: 100%;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.touna_left_inner button i {
+    float: right;
+    color: #fffeff;
+    padding-right: 50px;
+    padding-top: 9px;
+}
+
+.touna_left_inner button span {
+    color: #fffeff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.touna_head_left .card-header {
+    padding: 0;
+}
+
+.touna_head_left .card-body {
+    padding: 0;
+    padding-left: 30px;
+}
+
+.touna_head_left .btn {
+    padding: 0;
+}
+
+.card-body p {
+    color: #fffeff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 25px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    padding-bottom: 25px;
+}
+
+.accordion .add_border:not(:first-of-type):not(:last-of-type) {
+    border-bottom: 1px solid #fcb100 !important;
+}
+
+.coun_text {
+    margin-top: 85px;
+}
+
+.coun_text h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.coundown {
+    float: left;
+    margin-top: 65px;
+    border: 1px solid #fcb100;
+    height: 70px;
+    width: 70px;
+    margin-left: 18px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.cou_mar {
+    margin-left: 0;
+}
+
+.coundown span {
+    color: #fcb100;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.coundown p {
+    color: #fcb100;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.tun_scroll {
+    padding-right: 15px;
+    height: 320px;
+}
+
+.scl_pad {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tun_border::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    height: 3px;
+    color: #fcb100;
+    background: #000000;
+    background: -moz-linear-gradient(top, #000000 67%, #290a59 67%);
+    background: -webkit-linear-gradient(top, #000000 67%, #290a59 67%);
+    background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#290a59', GradientType=0);
+}
+
+.scll_main {
+    display: flex;
+}
+
+.toun_scroll_name {
+    margin-right: 10px;
+}
+
+.toun_scroll_name h5,
+p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.pad_today {
+    padding-bottom: 30px;
+}
+
+.card_border {
+    border: 1px solid red !important;
+}
+
+
+/*========================================
+            Tounament part End 
+========================================*/
+
+
+/*========================================
+            Payment part Start 
+========================================*/
+
+#payment_part {
+    padding: 30px 0;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    border-bottom: 6px solid #3a0090;
+}
+
+.subcrib h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 4px 4px 0px #5813b8;
+    padding-bottom: 15px;
+}
+
+.pay_form {
+    position: relative;
+}
+
+.pay_form input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #000;
+    margin-top: 10px;
+    padding-left: 15px;
+    color: #fff;
+    padding-right: 50px;
+}
+
+.pay_form input::placeholder {
+    color: #3a0090;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.pay_butt {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    height: 40px;
+    width: 48px;
+    background: transparent;
+    border: none;
+    border-left: 1px solid #000;
+    cursor: pointer;
+}
+
+.pay_butt:focus {
+    outline: 0;
+}
+
+.pay_meth h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 4px 4px 0px #5813b8;
+    padding-bottom: 15px;
+}
+
+.pay_meth a img {
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+
+/*========================================
+            Payment part End 
+========================================*/
+
+
+/*========================================
+            Footer part Start 
+========================================*/
+
+#footer_part {
+    padding: 55px 0 34px 0;
+    background: #0b001b;
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.foot_about h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 21px;
+}
+
+.foot_about p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 23px;
+}
+
+.foot_about i {
+    font-size: 20px;
+    color: #fff;
+    height: 53px;
+    width: 50px;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+    text-align: center;
+    line-height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 3px 0px 0px rgba(58, 0, 144, 1);
+}
+
+.foot_about i:hover {
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 3px 0px 0px rgba(102, 19, 85, 1);
+}
+
+.foot_info_head h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 21px;
+}
+
+.foot_secu_text {
+    display: flex;
+}
+
+.foot_info_text ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 15px;
+    display: inline-block;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+}
+
+.foot_info_text ul li a:hover {
+    color: #ff39dc;
+}
+
+.foot_secu h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 27px;
+}
+
+.foot_secu_text {
+    padding-bottom: 27px;
+}
+
+.foot_secu_text p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 30px;
+}
+
+.foot_secu_text p span {
+    display: block;
+}
+
+.foot_bot {
+    padding: 20px 0;
+    background: #0b001b;
+    position: relative;
+}
+
+.foot_bot:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: -3px;
+    width: 100%;
+    height: 3px;
+    color: #fcb100;
+    background: #000000;
+    background: -moz-linear-gradient(top, #000000 67%, #290a59 67%);
+    background: -webkit-linear-gradient(top, #000000 67%, #290a59 67%);
+    background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#290a59', GradientType=0);
+}
+
+.effect {
+    position: absolute;
+    left: 0;
+    top: -15px;
+    animation: lineshine 10s infinite;
+    animation-direction: alternate;
+    z-index: 999;
+}
+
+@-webkit-keyframes lineshine {
+    form {
+        left: 0;
+    }
+    to {
+        left: 95%;
+    }
+}
+
+@-webkit-keyframes lineshine2 {
+    form {
+        left: 0;
+    }
+    to {
+        left: 91%;
+    }
+}
+
+@-webkit-keyframes lineshine3 {
+    form {
+        left: 0;
+    }
+    to {
+        left: 88%;
+    }
+}
+
+
+/*========================================
+            Footer part End 
+========================================*/
+
+
+/*========================================
+            Home Page End 
+========================================*/
+
+
+/*========================================
+            About Page Start 
+========================================*/
+
+
+/*========================================
+            About Banner Start 
+========================================*/
+
+#about_banner {
+    padding: 185px 0 210px 0;
+    background: #150035;
+}
+
+.about_menu h2 {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+}
+
+.bread span {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 3px 6px 0px #1f004f;
+    padding: 0 5px;
+}
+
+.bread a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    text-shadow: 3px 6px 0px #1f004f;
+    display: inline-block;
+}
+
+.bread a.active {
+    color: #ff39dc;
+}
+
+
+/*========================================
+            About Banner End 
+========================================*/
+
+
+/*========================================
+            About Video Start 
+========================================*/
+
+.client_bg {
+    background: #0b001b !important;
+}
+
+.about_game {
+    top: -220px;
+}
+
+.abou_clie {
+    padding-top: 123px
+}
+
+.about_play {
+    padding-top: 80px;
+}
+
+.about_play p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.about_play p span {
+    display: block;
+    padding-top: 20px;
+}
+
+.about_play .paly_1st {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    background: -moz-linear-gradient(top, #1e5799 0%, #590fca 0%, #9a4bf9 50%);
+    background: -webkit-linear-gradient(top, #1e5799 0%, #590fca 0%, #9a4bf9 50%);
+    background: linear-gradient(to top, #1e5799 0%, #590fca 0%, #9a4bf9 50%);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    margin-top: 26px;
+}
+
+.about_play .paly_1st:hover {
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+
+.about_play .play_but i {
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background: -moz-linear-gradient(top, #1e5799 0%, #590fca 0%, #9a4bf9 50%);
+    background: -webkit-linear-gradient(top, #1e5799 0%, #590fca 0%, #9a4bf9 50%);
+    background: linear-gradient(to top, #1e5799 0%, #590fca 0%, #9a4bf9 50%);
+    -webkit-box-shadow: 0px 2px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 2px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 2px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    line-height: 50px;
+}
+
+.about_play .play_but i {
+    margin: 0 15px 0 30px;
+}
+
+.about_play .play_but span {
+    color: #fff;
+}
+
+.about_play .play_but:hover span {
+    color: #a60084;
+}
+
+.about_play .play_but:hover i {
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 2px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 2px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 2px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+
+
+/*========================================
+            About Video End 
+========================================*/
+
+
+/*========================================
+            About game Start 
+========================================*/
+
+.about_page_game {
+    background: #150035 !important;
+    padding: 58px 0 150px 0 !important;
+    position: relative;
+}
+
+.about_game_slider ul.slick-dots {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    ;
+    transform: translateX(-50%);
+}
+
+.about_game_slider ul.slick-dots li {
+    margin-right: 10px;
+}
+
+.about_game_slider ul.slick-dots li button {
+    height: 12px;
+    width: 12px;
+    font-size: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #207cca 100%, #207cca 100%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #207cca 100%, #207cca 100%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #207cca 100%, #207cca 100%, #570dc8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+    border: none;
+    -webkit-box-shadow: 0px 2px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 2px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 2px 0px 0px rgba(58, 0, 144, 1);
+    outline: 0;
+}
+
+.about_game_slider ul.slick-dots li.slick-active button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 2px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 2px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 2px 0px 0px rgba(102, 19, 85, 1);
+}
+
+
+/*========================================
+            About game End 
+========================================*/
+
+
+/*========================================
+            About Page End 
+========================================*/
+
+
+/*========================================
+            Game Page Start 
+========================================*/
+
+.game_img_pad {
+    margin-top: 30px;
+}
+
+.main_game {
+    padding: 79px 0 61px 0;
+}
+
+.client_bg2 {
+    padding: 100px 0 38px 0 !important;
+}
+
+
+/*========================================
+            Game Page End 
+========================================*/
+
+
+/*========================================
+            Membership Page Start 
+========================================*/
+
+#pricing_page {
+    background: #0b001b;
+    padding: 95px 0 130px 0;
+}
+
+.pri_page {
+    margin-top: 46px
+}
+
+.pri_page_in {
+    margin-top: 83px;
+}
+
+.pricing_game {
+    top: -260px;
+}
+
+
+/*========================================
+            Membership Page End 
+========================================*/
+
+
+/*========================================
+            Contact Page Start 
+========================================*/
+
+#contact_page {
+    background: url(../images/contact_banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 220px 0 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.contact_banner {
+    padding: 183px 0 215px 0 !important;
+}
+
+#contact_page:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: -1;
+}
+
+.contact_game {
+    top: -345px;
+}
+
+.cont_address {
+    display: flex;
+}
+
+.con_icon i {
+    color: #fff;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    font-size: 40px;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+    text-align: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    margin-right: 30px;
+}
+
+.address_text h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 17px;
+}
+
+.address_text p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    line-height: 30px;
+}
+
+
+/*========================================
+            Contact Page End 
+========================================*/
+
+
+/*========================================
+            Signup Page Start 
+========================================*/
+
+.sign_form_part {
+    background: url(../images/sigiup_banner.jpg) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.signup_form_pad {
+    padding: 100px 0;
+}
+
+.main_signup h4 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    line-height: 30px;
+}
+
+.main_signup > p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    line-height: 30px;
+    position: relative;
+}
+
+.main_signup > p::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -20px;
+    width: 60px;
+    height: 4px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.signup_inner .fast_input {
+    margin-top: 80px;
+}
+
+.signup_inner input {
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 15px 30px 15px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.signup_inner input::placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.signup_inner .sign_input_inner {
+    position: relative;
+}
+
+.signup_inner .sign_input_inner .fas {
+    position: absolute;
+    right: 20px;
+    top: 18%;
+    color: #fff;
+}
+
+.signup_inner button {
+    padding: 14px 30px;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    width: 100%;
+    border: 0;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.signup_inner button:focus {
+    outline: 0;
+}
+
+.signup_inner button:hover {
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+
+.signup_inner p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.signup_inner p a {
+    color: #ff39dc;
+}
+
+.signup_inner h6 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    display: inline-block;
+    float: right;
+}
+
+.signup_inner h6 a {
+    position: relative;
+}
+
+.signup_inner h6 i {
+    font-size: 16px;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+    text-align: center;
+    line-height: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 3px 0px 0px rgba(58, 0, 144, 1);
+}
+
+.signup_inner h6 i:hover {
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 3px 0px 0px rgba(102, 19, 85, 1);
+}
+
+.signup_inner h6 i:after {
+    position: absolute;
+    content: "";
+    right: -18px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #330080;
+}
+
+.signup_inner h6 a:last-child i:after {
+    display: none;
+}
+
+
+/*========================================
+            Signup Page End 
+========================================*/
+
+
+/*========================================
+            Login Page start 
+========================================*/
+
+.login_main .log_acc_yet {
+    float: right;
+}
+
+.login_main a {
+    display: inline-block;
+    line-height: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.login_main a:hover {
+    color: #ff39dc;
+}
+
+.login_main .log_inner {
+    margin-top: 50px;
+}
+
+
+/*========================================
+            Login Page End 
+========================================*/
+
+
+/*========================================
+            Error 404 Page Start 
+========================================*/
+
+.error_page_main {
+    padding: 100px 0 60px 0;
+}
+
+.error_page_main .error_btn a {
+    text-decoration: none;
+    padding: 14px 30px;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+    margin-left: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.error_page_main .error_btn a:hover {
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+
+
+/*========================================
+            Error 404 Page End 
+========================================*/
+
+
+/*========================================
+        Promotion Page Start 
+========================================*/
+
+.promo_part {
+    background: #0b001b !important;
+}
+
+.promo_flow {
+    top: -125px !important;
+}
+
+#promotion_banner {
+    background: #150035;
+}
+
+.pro_banner {
+    background: url(../images/promotion_banner.png) no-repeat center;
+    background-size: cover;
+    padding: 225px 0 100px;
+}
+
+.prom_banner_left h3 {
+    font-size: 103px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fcb100;
+    background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 35px #4d0148);
+    margin-top: 45px;
+    text-transform: uppercase;
+}
+
+.promo_banner_text h1 {
+    font-size: 198px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fcb100;
+    background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 35px #4d0148);
+    margin-top: -35px;
+}
+
+.promo_banner_text h2 {
+    font-size: 56px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.promo_banner_text h2 span {
+    font-size: 91px;
+    display: block;
+}
+
+.promo_banner_text a {
+    padding: 14px 30px;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    width: 100%;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.promo_banner_text a:hover {
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+
+
+/*========================================
+        Promotion player part Start 
+========================================*/
+
+#promo_player_part {
+    background: #0b001b;
+    padding: 60px 0;
+}
+
+.pro_player_text {
+    padding-top: 118px;
+}
+
+.pro_player_text h2 {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+}
+
+.pro_player_text p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    line-height: 26px;
+    padding-top: 50px;
+}
+
+.pro_player_text p span {
+    display: block;
+    padding-top: 24px;
+}
+
+.pro_player_offer {
+    position: relative;
+    height: 570px;
+}
+
+.pro_offer_inner {
+    position: relative;
+    width: 270px;
+}
+
+.pro_offer_inner .overly {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.pro_offer_inner .overly h4 {
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+    padding-bottom: 5px;
+}
+
+.pro_offer_inner .overly h3 {
+    font-size: 37px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+    padding-bottom: 5px;
+}
+
+.pro_offer_inner .overly p {
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    filter: drop-shadow(0 0 25px #4d0148);
+    padding: 0 39px;
+    line-height: 23px;
+    font-size: 40px;
+    color: #fff;
+    border-radius: 12px;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: 5px 3px 0px #ef8d22;
+    display: inline-block;
+}
+
+.pro_offer1 {
+    position: absolute;
+    left: -40px;
+    top: 0;
+    animation: playerss 16s infinite;
+}
+
+.pro_offer2 {
+    position: absolute;
+    right: 0;
+    top: 170px;
+    animation: playerss2 16s infinite;
+}
+
+.pro_offer3 {
+    position: absolute;
+    left: -40px;
+    bottom: 0;
+    animation: playerss3 16s infinite;
+}
+
+.pro_offer4 {
+    position: absolute;
+    left: -250px;
+    top: 170px;
+    animation: playerss4 16s infinite;
+}
+
+@keyframes playerss {
+    25% {
+        position: absolute;
+        left: 39%;
+        top: 170px;
+    }
+    50% {
+        position: absolute;
+        left: -40px;
+        top: 58%;
+    }
+    75% {
+        position: absolute;
+        left: -250px;
+        top: 170px;
+    }
+    100% {
+        position: absolute;
+        left: -40px;
+        top: 0;
+    }
+}
+
+@keyframes playerss2 {
+    25% {
+        position: absolute;
+        right: 48.4%;
+        top: 58%;
+    }
+    50% {
+        position: absolute;
+        right: 95.5%;
+        top: 170px;
+    }
+    75% {
+        position: absolute;
+        right: 48%;
+        top: 0;
+    }
+    100% {
+        position: absolute;
+        right: 0;
+        top: 170px;
+    }
+}
+
+@keyframes playerss3 {
+    25% {
+        position: absolute;
+        left: -250px;
+        bottom: 160px;
+    }
+    50% {
+        position: absolute;
+        left: -40px;
+        bottom: 330px;
+    }
+    75% {
+        position: absolute;
+        left: 39%;
+        bottom: 160px;
+    }
+    100% {
+        position: absolute;
+        left: -40px;
+        bottom: 0;
+    }
+}
+
+@keyframes playerss4 {
+    25% {
+        position: absolute;
+        left: -40px;
+        top: 0;
+    }
+    50% {
+        position: absolute;
+        left: 39%;
+        top: 170px;
+    }
+    75% {
+        position: absolute;
+        left: -40px;
+        top: 58%;
+    }
+    100% {
+        position: absolute;
+        left: -250px;
+        top: 170px;
+    }
+}
+
+
+/*========================================
+        Promotion Bonus part Start 
+========================================*/
+
+#prom_bonus_part {
+    padding: 100px 0;
+    background: #150035;
+}
+
+.promo_bonus_text {
+    text-align: center;
+}
+
+.promo_bonus_text h2 {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+}
+
+.promo_bonus_text p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Nunito', sans-serif;
+    line-height: 30px;
+    padding-top: 12px;
+}
+
+.promo_bonus_text p span {
+    display: block;
+    padding-top: 30px;
+}
+
+
+/*========================================
+        Promotion Page End 
+========================================*/
